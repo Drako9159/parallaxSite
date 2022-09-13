@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   overflow-x: hidden;
 }
 .logo {
@@ -11,4 +12,16 @@ body {
   z-index: 100;
   width: 100%;
   height: 100vh;
+}
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 110vh;
+}
+.scroll-tip {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 48px;
 }
